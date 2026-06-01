@@ -1,0 +1,27 @@
+{
+  "site": {
+    "tagline": "AWS Certified · 11+ Years"
+  },
+  "hero": {
+    "taglineHighlight": "systems",
+    "briefTagline": "Full-stack apps, GenAI pipelines, and cloud-native platforms.",
+    "freelanceNote": "Open to opportunities worldwide.",
+    "availableLabel": "Available for work",
+    "pills": ["Python", "Full-Stack", "GenAI", "AWS"],
+    "specialistStat": { "value": "Full-Stack + GenAI", "label": "Specialist" }
+  },
+  "interstitial": {
+    "availabilityLabel": "Availability",
+    "basedInLabel": "Based in",
+    "statLabels": ["Years\nexperience", "AWS\nCertified", "Enterprises\nserved"]
+  },
+  "publications": {
+    "label": "Research · Writing",
+    "heading": "Publications"
+  },
+  "footer": {
+    "eyebrow": "Let's connect",
+    "ctaLines": ["Building full-stack", "products that", "ship"],
+    "ctaAccent": "production-ready."
+  }
+}

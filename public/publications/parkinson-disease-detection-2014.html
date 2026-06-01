@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parkinson's Disease Detection using Machine Learning Techniques | Anudeep Pasala (2014)</title>
+  <meta name="description" content="Research paper on hybrid machine learning for early Parkinson's disease detection using voice analytics and spiral-drawing analysis." />
+  <meta name="author" content="Anudeep Pasala" />
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --text: #e8e8e8;
+      --muted: #9a9a9a;
+      --accent: #f7931e;
+      --border: #2a2a2a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+    a { color: var(--accent); }
+  .back {
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-family: system-ui, sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      line-height: 1.25;
+      margin: 0 0 1rem;
+    }
+    .meta {
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .meta strong { color: var(--accent); font-weight: 600; }
+    h2 {
+      font-family: system-ui, sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 2rem 0 0.75rem;
+    }
+    p { margin: 0 0 1rem; }
+    .keywords {
+      font-family: system-ui, sans-serif;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    .keywords span {
+      display: inline-block;
+      margin: 0.25rem 0.5rem 0.25rem 0;
+      padding: 0.2rem 0.55rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+    }
+    ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+    li { margin-bottom: 0.35rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="/">← Back to portfolio</a>
+
+    <h1>Parkinson's Disease Detection using Machine Learning Techniques</h1>
+
+    <div class="meta">
+      <p><strong>Anudeep Pasala</strong></p>
+      <p>Department of Computer Science and Engineering<br />
+      Sathyabama Institute of Science and Technology, Chennai, India</p>
+      <p>Published <strong>2014</strong> · Springer conference proceedings format</p>
+    </div>
+
+    <h2>Abstract</h2>
+    <p>
+      Parkinson disease (PD) is a progressive neurodegenerative disorder that affects more than
+      six million people worldwide. Non-specialist physicians often lack a definitive test for PD,
+      especially in early stages where symptoms may be intermittent and poorly defined. This contributes
+      to high misdiagnosis rates (up to 25% among non-specialists) and years of delay before treatment.
+    </p>
+    <p>
+      This work presents a predictive analytics pipeline that combines K-means clustering and decision
+      trees on patient voice data, together with principal component analysis (PCA) for feature extraction
+      from spiral-drawing inputs and support vector machine (SVM) classification. The UCI Machine Learning
+      Repository Parkinson's disease voice dataset is used for evaluation. The hybrid approach—merging
+      speech analytics with spiral-drawing analysis—aims to support earlier, more accurate detection so
+      that therapeutic care can begin sooner.
+    </p>
+
+    <p class="keywords">
+      <strong>Keywords:</strong>
+      <span>Parkinson's disease</span>
+      <span>PCA</span>
+      <span>K-means clustering</span>
+      <span>Decision Tree</span>
+      <span>Machine Learning</span>
+      <span>Data Mining</span>
+      <span>SVM</span>
+    </p>
+
+    <h2>Introduction</h2>
+    <p>
+      Parkinson's disease is a movement disorder that affects the nervous system and worsens over time.
+      Symptoms often begin with a mild tremor in one hand and general weakness, then progress as dopamine
+      levels in the brain decline. Most cases appear at or after age 60; roughly 5–10% of diagnoses occur
+      before age 50 (early-onset PD). Data mining and machine learning can help clinicians find hidden
+      patterns in growing medical datasets and support earlier diagnosis when treatment is most effective.
+    </p>
+
+    <h2>Proposed system</h2>
+    <p>
+      The proposed model analyzes both speech signals and spiral drawings so clinicians can compare
+      outcomes and recommend care based on disease stage.
+    </p>
+    <ul>
+      <li>
+        <strong>Voice data processing:</strong> Parkinson's disease voice data from the UCI repository
+        is analyzed in RStudio using K-means clustering and decision trees to reduce error and surface
+        patient-level insights.
+      </li>
+      <li>
+        <strong>Spiral drawing analysis:</strong> Spiral images are processed in Python (PyCharm).
+        PCA extracts features from drawings; grip angle, pressure, timestamp, and reference IDs are
+        removed before SVM classification against a trained database.
+      </li>
+    </ul>
+    <p>
+      A hybrid workflow integrates voice analytics and image-based spiral analysis so healthcare teams
+      can evaluate large, complex datasets more efficiently and pursue earlier intervention.
+    </p>
+
+    <h2>Experimental results</h2>
+    <p>
+      Experiments used the UCI machine learning repository datasets in R Studio and Python for spiral
+      pressure visualization. The classifier achieved approximately <strong>86.66% accuracy</strong>,
+      <strong>99.9% specificity</strong>, and <strong>80.48% sensitivity</strong>, demonstrating strong
+      potential for assisted early screening when combined with clinical judgment.
+    </p>
+
+    <h2>Conclusion</h2>
+    <p>
+      Prior work often focused on a single imaging modality or dementia type. This study surveys a broader
+      range of imaging and machine learning approaches for neurodegenerative diagnosis and emphasizes
+      early detection of Parkinson's disease so patients can receive treatment and support as early as
+      possible. Integrating voice and spiral-drawing signals offers a practical path toward more timely,
+      data-driven screening workflows.
+    </p>
+  </main>
+</body>
+</html>

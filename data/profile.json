@@ -1,0 +1,237 @@
+{
+  "name": {
+    "first": "Anudeep",
+    "last": "Pasala",
+    "full": "Anudeep Pasala"
+  },
+  "email": "anudeeppasala10@gmail.com",
+  "phone": {
+    "display": "(630) 296-6971",
+    "tel": "+16302966971"
+  },
+  "tagline": "Designing scalable, high-performance full-stack products — from APIs and UIs to ML and GenAI pipelines.",
+  "description": "Senior Python Full-Stack Developer building cloud-native apps, GenAI systems, and production-grade platforms across healthcare, finance, and media. AWS Certified Developer.",
+  "roles": {
+    "short": "Senior Python Full-Stack Developer",
+    "detailed": "Full-Stack · Python · GenAI · AWS · Azure · GCP"
+  },
+  "location": {
+    "based": "United States",
+    "availability": "Worldwide"
+  },
+  "available": true,
+  "education": {
+    "degree": "B.E. Computer Science",
+    "school": "Sathyabama University",
+    "year": "April 2014"
+  },
+  "certification": {
+    "title": "AWS Certified Developer — Associate",
+    "issuer": "Amazon Web Services",
+    "url": "https://www.credly.com"
+  },
+  "bio": "I'm Anudeep Pasala, a Senior Python Full-Stack Developer with over 11+ years of expertise designing, implementing, and shipping scalable applications across healthcare, finance, and media. My work spans APIs and microservices, React and Angular front ends, and ML/GenAI pipelines including Clinical Trials (CTMS) platforms. I build cloud-native systems on AWS, Azure, and GCP, and use AI-assisted tools (Cursor, Claude, ChatGPT) to deliver production-grade products end to end.",
+  "stats": [
+    { "value": "11+", "label": "Years Experience" },
+    { "value": "AWS", "label": "Certified Developer" },
+    { "value": "6", "label": "Enterprises" }
+  ],
+  "skills": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "Flask",
+    "GenAI / LLMs",
+    "RAG Systems",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Kubernetes",
+    "Docker",
+    "Kafka",
+    "PySpark",
+    "TensorFlow",
+    "PyTorch",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "MLOps",
+    "Microservices",
+    "Terraform",
+    "React.js"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Senior Python Full-Stack Developer",
+      "company": "Warner Bros. Discovery",
+      "companyShort": "WBD",
+      "type": "Contract",
+      "location": "New Jersey",
+      "period": "Aug 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Designed scalable Python microservices for WBD's media streaming platform on AWS Lambda with API Gateway and CloudFormation.",
+        "Built Django backend services integrated with RDS and DynamoDB; used S3 for high-traffic media asset management.",
+        "Implemented event-driven architecture using SQS, SNS, and Kafka for decoupled async communication across content pipelines.",
+        "Reduced release cycle time by over 40% via GitHub Actions CI/CD with Dockerized deployments to AWS EC2."
+      ],
+      "desc": "Media streaming microservices on AWS Lambda, Django + RDS/DynamoDB, event-driven pipelines with Kafka, and CI/CD cutting release cycles 40%+.",
+      "tech": ["Python", "Django", "AWS", "Lambda", "EKS", "Kafka", "Redis", "Docker", "Terraform"]
+    },
+    {
+      "id": 2,
+      "role": "Senior Python Full-Stack Developer",
+      "company": "AbbVie",
+      "companyShort": "ABBVIE",
+      "type": "Contract",
+      "location": "Chicago, IL",
+      "period": "Feb 2023",
+      "periodEnd": "July 2025",
+      "bullets": [
+        "Architected scalable API systems on AWS Lambda and ECS Fargate secured with Cognito and OAuth; optimized with API Gateway and WAF.",
+        "Built and maintained CI/CD via CodePipeline on EKS using Terraform and CloudFormation with EventBridge automation.",
+        "Developed and fine-tuned GenAI models with TensorFlow, PyTorch, and Hugging Face; built GPT-powered pipelines with FastAPI.",
+        "Automated Windows infrastructure provisioning with Python + PowerShell, reducing manual setup time by over 60%."
+      ],
+      "desc": "GenAI and FastAPI pipelines on AWS EKS, Terraform CI/CD, and secure APIs with Cognito — 60%+ reduction in manual infra setup.",
+      "tech": ["FastAPI", "EKS", "Terraform", "PyTorch", "Hugging Face", "GCP"]
+    },
+    {
+      "id": 3,
+      "role": "Senior Python Full-Stack Developer",
+      "company": "Highmark Health",
+      "companyShort": "HIGHMARK",
+      "type": "Contract",
+      "location": "Pittsburgh, PA",
+      "period": "Mar 2020",
+      "periodEnd": "Feb 2023",
+      "bullets": [
+        "Implemented scalable Flask APIs with Azure AD OAuth SSO and RBAC; optimized with Redis caching and Celery async processing.",
+        "Developed Python data pipelines for Clinical Trials (CTMS) using Pandas, Polars, and PySpark for large-scale cohort data processing.",
+        "Built ML pipelines with scikit-learn and TensorFlow; designed Kubeflow Pipelines with Argo Workflows for automated model CD.",
+        "Leveraged AI coding agents (Cursor, Claude, ChatGPT) to accelerate sprint velocity across the healthcare data engineering team."
+      ],
+      "desc": "Healthcare CTMS data pipelines with PySpark, Flask APIs on Azure AD, and Kubeflow ML automation at scale.",
+      "tech": ["Flask", "Azure AD", "PySpark", "Kubeflow", "Pandas", "Polars"]
+    },
+    {
+      "id": 4,
+      "role": "Senior Python Full-Stack Developer",
+      "company": "Key Bank",
+      "companyShort": "KEY BANK",
+      "type": "Contract",
+      "location": "Cleveland, OH",
+      "period": "Oct 2018",
+      "periodEnd": "Mar 2020",
+      "bullets": [
+        "Deployed API systems on Amazon SageMaker, AWS Lambda, Kubernetes, and Snowflake REST API Gateway for financial workloads.",
+        "Designed serverless architectures with Lambda, DynamoDB, Cognito, and API Gateway for scalable banking applications.",
+        "Delivered full-stack banking features end-to-end — Django REST APIs and AngularJS SPAs with MongoDB and PySpark for customer-facing financial workflows.",
+        "Implemented validation of row counts during on-premises to cloud migration; designed framework for converting PowerCenter mappings to PySpark jobs."
+      ],
+      "desc": "Serverless banking APIs on Lambda and SageMaker, Snowflake integrations, and PySpark migration frameworks.",
+      "tech": ["SageMaker", "Lambda", "Kubernetes", "Snowflake", "DynamoDB", "Django", "Angular", "MongoDB"]
+    },
+    {
+      "id": 5,
+      "role": "Python Full-Stack Developer",
+      "company": "Quad",
+      "companyShort": "QUAD",
+      "type": "Contract",
+      "location": "Sussex, WI",
+      "period": "Jan 2016",
+      "periodEnd": "Oct 2018",
+      "bullets": [
+        "Led full SDLC projects in Agile; built resilient RESTful APIs with Python, Terraform, AngularJS, and Camunda in a distributed GCP environment.",
+        "Developed Remote Monitoring and Management (RMM) using Django, Flask, MongoDB, and microservices on GCP with Elasticsearch optimization.",
+        "Built AWS Lambda functions with Python and Node.js; orchestrated Docker containers with Kubernetes for DevOps infrastructure.",
+        "Created Python-PowerShell integration toolset for dynamic script generation via Django web UI for remote operations."
+      ],
+      "desc": "GCP microservices, RMM platform with Django/Flask, and Kubernetes-orchestrated DevOps automation.",
+      "tech": ["GCP", "Django", "Flask", "MongoDB", "Elasticsearch", "Kafka", "Kubernetes", "React.js"]
+    },
+    {
+      "id": 6,
+      "role": "Python Full-Stack Developer",
+      "company": "AIG",
+      "companyShort": "AIG",
+      "type": "Contract",
+      "location": "Charlotte, NC",
+      "period": "Nov 2014",
+      "periodEnd": "Jan 2016",
+      "bullets": [
+        "Developed a responsive website with a new UI; built Tableau visual reports for application data.",
+        "Implemented TDD using the unit test framework in Agile/Scrum with weekly sprints and stakeholder demos.",
+        "Built dynamic web pages using HTML5, CSS3, and JavaScript; performed capacity planning and MySQL performance tuning.",
+        "Handled full web application lifecycle — maintenance, testing, debugging, and deployment."
+      ],
+      "desc": "Full-stack Python web delivery, Tableau reporting, and MySQL performance tuning in Agile insurance workflows.",
+      "tech": ["Python", "HTML5", "CSS3", "JavaScript", "MySQL", "Tableau", "GitLab"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Media Metadata Engine",
+      "subtitle": "Visual metadata & searchable insights",
+      "type": "GenAI · Media",
+      "link": "https://github.com/anudeeppasala/media-metadata-engine",
+      "image": "/assets/project-bg-media-metadata.png",
+      "tech": ["Python", "Streamlit", "Gemini", "FFmpeg", "SQLite"],
+      "desc": "AI-powered media asset analyzer and library — tags, mood, colors, and usage suggestions. Built with Streamlit, SQLite, Gemini, and FFmpeg for production-ready discovery workflows."
+    },
+    {
+      "id": 2,
+      "title": "AI Document Assistant",
+      "subtitle": "Production RAG for PDF Q&A",
+      "type": "GenAI Platform",
+      "link": "https://github.com/anudeeppasala/ai-document-assistant",
+      "image": "/assets/project-bg-ai-document.png",
+      "tech": ["Python", "FastAPI", "Chroma", "Gemini", "Streamlit", "Docker"],
+      "desc": "End-to-end RAG app: upload PDFs, ask questions, get cited answers. FastAPI backend, Chroma vector store, Gemini embeddings, offline fallback mode, evaluation harness, and integration tests."
+    },
+    {
+      "id": 3,
+      "title": "Cursor-skills",
+      "subtitle": "Reusable Cursor rules & prompts",
+      "type": "Developer Tooling",
+      "link": "https://github.com/anudeeppasala/Cursor-skills",
+      "image": "/assets/project-bg-cursor-skills.png",
+      "tech": ["Cursor", "AI Workflows", "Prompts", "PowerShell"],
+      "desc": "A standard operating system for building software — reusable Cursor rules and prompts you can plug into any repository to ship faster with AI-assisted development."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Parkinson's Disease Detection using Machine Learning Techniques",
+      "platform": "Research · Springer Proceedings",
+      "year": "2014",
+      "link": "/publications/parkinson-disease-detection-2014.html",
+      "desc": "By Anudeep Pasala — hybrid ML for early Parkinson's detection: K-means and decision trees on UCI voice data, plus PCA and SVM on spiral drawings (~87% accuracy)."
+    },
+    {
+      "id": 2,
+      "title": "The Cloud Is Getting Smarter: Why AI Agents Are the Next Upgrade to AWS",
+      "platform": "Medium",
+      "year": "2026",
+      "link": "https://medium.com/@anudeep22/series-when-cloud-starts-thinking-3e746c52c65d",
+      "desc": "Part 1 of the series When Cloud Starts Thinking — how AI agents observe, reason, and act inside AWS across S3, IAM, Lambda, and SQS."
+    },
+    {
+      "id": 3,
+      "title": "When Cloud Starts Thinking",
+      "platform": "Medium · Series",
+      "year": "2026",
+      "link": "https://medium.com/@anudeep22",
+      "desc": "More articles on Python, AWS, and AI agents in the cloud — follow on Medium @anudeep22."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub", "href": "https://github.com/anudeeppasala" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/anudeep-pasala" },
+    { "label": "Portfolio", "href": "https://anudeep1015.github.io" },
+    { "label": "Medium", "href": "https://medium.com/@anudeep22" }
+  ]
+}
