@@ -88,7 +88,7 @@ export default function HeroSection() {
       {/* Photo */}
       <div ref={photoRef} className={styles.photo}>
         <Image
-          src={ASSETS.introSuit}
+          src={ASSETS.portrait}
           alt={profile.name.full}
           unoptimized
           fill

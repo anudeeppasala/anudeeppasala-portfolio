@@ -70,7 +70,7 @@ cd ~/Desktop/anudeep-cinematic-portfolio
 git init
 git add .
 git commit -m "Personal cinematic portfolio"
-git remote add origin https://github.com/anudeeppasala/cinematic-portfolio.git
+git remote add origin https://github.com/anudeeppasala/anudeeppasala-portfolio.git
 git push -u origin main
 ```
 

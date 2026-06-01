@@ -14,8 +14,8 @@ import styles from '@/styles/sections/VideoIntro.module.css'
 const CinematicLayer = dynamic(() => import('@/components/three/CinematicLayer'), { ssr: false })
 
 const isCinematic = intro.mode === 'cinematic'
-const introPhoto  = intro.introPhotoSrc ?? ASSETS.introSuit
-const characterSrc  = intro.characterSrc ?? ASSETS.aiCharacter
+const introPhoto  = intro.introPhotoSrc ?? ASSETS.portrait
+const characterSrc  = intro.characterSrc ?? ASSETS.portrait
 
 function scrollNext() {
   const main = document.querySelector('main')

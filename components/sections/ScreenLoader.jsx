@@ -154,7 +154,7 @@ export default function ScreenLoader({ onDismiss }) {
 
       <div className={styles.avatarWrap}>
         <Image
-          src={ASSETS.aiCharacter}
+          src={ASSETS.portrait}
           alt={intro.presenter?.label ?? profile.name.full}
           width={112}
           height={112}
