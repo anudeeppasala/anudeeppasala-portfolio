@@ -208,7 +208,7 @@ export default function ScreenLoader({ onDismiss }) {
         </div>
       ) : (
         <p className={styles.voiceHint}>
-          Tap Start — AI welcome plays on the intro.
+          Tap Start to enter. Voice is optional — tap AI Anudeep on the intro.
         </p>
       )}
 

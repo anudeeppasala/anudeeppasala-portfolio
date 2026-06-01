@@ -100,7 +100,6 @@ export default function VideoIntro() {
   useEffect(() => {
     function onLoaderDismissed() {
       if (isCinematic) {
-        startNarration()
         return
       }
       const v = videoRef.current
