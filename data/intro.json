@@ -6,7 +6,7 @@
   "videoSrc": "/assets/intro-anudeep.mp4",
   "audioSrc": "/assets/intro-voice.webm",
   "introPhotoSrc": "/assets/intro-suit.png",
-  "characterSrc": "/assets/ai-character.png",
+  "characterSrc": "/assets/intro-suit.png",
   "ambientSrc": "/assets/intro-suit.png",
   "narration": {
     "enabled": true,
