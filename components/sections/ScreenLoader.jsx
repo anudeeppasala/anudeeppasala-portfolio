@@ -14,6 +14,7 @@ import {
 import styles from '@/styles/sections/ScreenLoader.module.css'
 
 const MAX_RECORD_SEC = 12
+const SHOW_VOICE_RECORDER = intro.loader?.showVoiceRecorder === true
 
 export default function ScreenLoader({ onDismiss }) {
   const overlayRef = useRef(null)
@@ -27,6 +28,7 @@ export default function ScreenLoader({ onDismiss }) {
   const [voiceError, setVoiceError] = useState('')
 
   useEffect(() => {
+    if (!SHOW_VOICE_RECORDER) return
     hasRecordedVoice().then(setVoiceReady)
   }, [])
 
@@ -164,45 +166,51 @@ export default function ScreenLoader({ onDismiss }) {
 
       <p className={styles.monogram}>{profile.name.full.toUpperCase()}</p>
 
-      <div className={styles.voicePanel}>
-        <p className={styles.voiceHint}>
-          {voiceReady
-            ? 'Your voice is saved — it plays on Start.'
-            : 'Record a short welcome in your own voice (optional).'}
-        </p>
+      {SHOW_VOICE_RECORDER ? (
+        <div className={styles.voicePanel}>
+          <p className={styles.voiceHint}>
+            {voiceReady
+              ? 'Your voice is saved — it plays on Start.'
+              : 'Record a short welcome in your own voice (optional).'}
+          </p>
 
-        <div className={styles.voiceActions}>
-          {!recording ? (
-            <button
-              type="button"
-              className={styles.voiceBtn}
-              onClick={startRecording}
-            >
-              {voiceReady ? 'Re-record voice' : 'Record my voice'}
-            </button>
-          ) : (
-            <button
-              type="button"
-              className={`${styles.voiceBtn} ${styles.voiceBtnRecording}`}
-              onClick={stopRecording}
-            >
-              Stop ({MAX_RECORD_SEC - recordSec}s)
-            </button>
-          )}
+          <div className={styles.voiceActions}>
+            {!recording ? (
+              <button
+                type="button"
+                className={styles.voiceBtn}
+                onClick={startRecording}
+              >
+                {voiceReady ? 'Re-record voice' : 'Record my voice'}
+              </button>
+            ) : (
+              <button
+                type="button"
+                className={`${styles.voiceBtn} ${styles.voiceBtnRecording}`}
+                onClick={stopRecording}
+              >
+                Stop ({MAX_RECORD_SEC - recordSec}s)
+              </button>
+            )}
 
-          {voiceReady && !recording && (
-            <button
-              type="button"
-              className={styles.voiceBtnGhost}
-              onClick={handleClearVoice}
-            >
-              Clear
-            </button>
-          )}
+            {voiceReady && !recording && (
+              <button
+                type="button"
+                className={styles.voiceBtnGhost}
+                onClick={handleClearVoice}
+              >
+                Clear
+              </button>
+            )}
+          </div>
+
+          {voiceError && <p className={styles.voiceError}>{voiceError}</p>}
         </div>
-
-        {voiceError && <p className={styles.voiceError}>{voiceError}</p>}
-      </div>
+      ) : (
+        <p className={styles.voiceHint}>
+          Tap Start — AI welcome plays on the intro.
+        </p>
+      )}
 
       <button className={styles.startBtn} onClick={handleStart}>
         Start

@@ -1,4 +1,7 @@
 {
+  "loader": {
+    "showVoiceRecorder": false
+  },
   "mode": "cinematic",
   "videoSrc": "/assets/intro-anudeep.mp4",
   "audioSrc": "/assets/intro-voice.webm",
