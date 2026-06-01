@@ -5,9 +5,9 @@
   "mode": "cinematic",
   "videoSrc": "/assets/intro-anudeep.mp4",
   "audioSrc": "/assets/intro-voice.webm",
-  "introPhotoSrc": "/assets/intro-suit.png",
-  "characterSrc": "/assets/intro-suit.png",
-  "ambientSrc": "/assets/intro-suit.png",
+  "introPhotoSrc": "/assets/intro-portrait.png",
+  "characterSrc": "/assets/intro-portrait.png",
+  "ambientSrc": "/assets/intro-portrait.png",
   "narration": {
     "enabled": true,
     "text": "Hi, I'm Anudeep Pasala — Senior Python Full-Stack Developer. I build full-stack apps, GenAI pipelines, and production systems across healthcare, finance, and media. Welcome to my portfolio."

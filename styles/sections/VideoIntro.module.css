@@ -52,7 +52,7 @@
 
 .mainPhotoImg {
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 42%;
 }
 
 .presenter {
@@ -99,7 +99,7 @@
 
 .presenterImg {
   object-fit: cover;
-  object-position: center 15%;
+  object-position: center 28%;
 }
 
 .presenterMeta {

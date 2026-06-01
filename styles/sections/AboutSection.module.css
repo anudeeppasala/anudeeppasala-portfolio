@@ -39,7 +39,7 @@
 
 .photoImg {
   object-fit: cover;
-  object-position: top center;
+  object-position: center 32%;
 }
 
 /* Signature - overlaps bottom-right corner of photo */
